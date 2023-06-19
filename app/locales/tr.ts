@@ -11,7 +11,7 @@ const tr: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} mesaj`,
   },
   Chat: {
-    SubTitle: (count: number) => `ChatGPT tarafından ${count} mesaj`,
+    SubTitle: (count: number) => `文心一言 tarafından ${count} mesaj`,
     Actions: {
       ChatList: "Sohbet Listesine Git",
       CompressedHistory: "Sıkıştırılmış Geçmiş Bellek Komutu",
@@ -41,7 +41,7 @@ const tr: PartialLocaleType = {
     Copy: "Tümünü Kopyala",
     Download: "İndir",
     MessageFromYou: "Sizin Mesajınız",
-    MessageFromChatGPT: "ChatGPT'nin Mesajı",
+    MessageFrom文心一言: "文心一言'nin Mesajı",
   },
   Memory: {
     Title: "Bellek Komutları",

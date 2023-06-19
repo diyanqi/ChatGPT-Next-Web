@@ -11,7 +11,7 @@ const jp: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} 通のチャット`,
   },
   Chat: {
-    SubTitle: (count: number) => `ChatGPTとの ${count} 通のチャット`,
+    SubTitle: (count: number) => `文心一言との ${count} 通のチャット`,
     Actions: {
       ChatList: "メッセージリストを表示",
       CompressedHistory: "圧縮された履歴プロンプトを表示",
@@ -41,7 +41,7 @@ const jp: PartialLocaleType = {
     Copy: "すべてコピー",
     Download: "ファイルをダウンロード",
     MessageFromYou: "あなたからのメッセージ",
-    MessageFromChatGPT: "ChatGPTからのメッセージ",
+    MessageFrom文心一言: "文心一言からのメッセージ",
   },
   Memory: {
     Title: "履歴メモリ",

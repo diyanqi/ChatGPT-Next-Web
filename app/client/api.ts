@@ -1,7 +1,7 @@
 import { getClientConfig } from "../config/client";
 import { ACCESS_CODE_PREFIX } from "../constant";
 import { ChatMessage, ModelType, useAccessStore } from "../store";
-import { ChatGPTApi } from "./platforms/openai";
+import { 文心一言Api } from "./platforms/openai";
 
 export const ROLES = ["system", "user", "assistant"] as const;
 export type MessageRole = (typeof ROLES)[number];
@@ -68,7 +68,7 @@ export class ClientApi {
   public llm: LLMApi;
 
   constructor() {
-    this.llm = new ChatGPTApi();
+    this.llm = new 文心一言Api();
   }
 
   config() {}
@@ -87,7 +87,7 @@ export class ClientApi {
         {
           from: "human",
           value:
-            "Share from [ChatGPT Next Web]: https://github.com/Yidadaa/ChatGPT-Next-Web",
+            "Share from [文心一言 Next Web]: https://github.com/Yidadaa/文心一言-Next-Web",
         },
       ]);
     // 敬告二开开发者们，为了开源大模型的发展，请不要修改上述消息，此消息用于后续数据清洗使用

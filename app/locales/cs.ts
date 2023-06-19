@@ -11,7 +11,7 @@ const cs: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} zpráv`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} zpráv s ChatGPT`,
+    SubTitle: (count: number) => `${count} zpráv s 文心一言`,
     Actions: {
       ChatList: "Přejít na seznam chatů",
       CompressedHistory: "Pokyn z komprimované paměti historie",
@@ -41,7 +41,7 @@ const cs: PartialLocaleType = {
     Copy: "Kopírovat vše",
     Download: "Stáhnout",
     MessageFromYou: "Zpráva od vás",
-    MessageFromChatGPT: "Zpráva z ChatGPT",
+    MessageFrom文心一言: "Zpráva z 文心一言",
   },
   Memory: {
     Title: "Pokyn z paměti",

@@ -11,7 +11,7 @@ const ru: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} сообщений`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} сообщений с ChatGPT`,
+    SubTitle: (count: number) => `${count} сообщений с 文心一言`,
     Actions: {
       ChatList: "Перейти к списку чатов",
       CompressedHistory: "Сжатая история памяти",
@@ -41,7 +41,7 @@ const ru: PartialLocaleType = {
     Copy: "Копировать все",
     Download: "Скачать",
     MessageFromYou: "Сообщение от вас",
-    MessageFromChatGPT: "Сообщение от ChatGPT",
+    MessageFrom文心一言: "Сообщение от 文心一言",
   },
   Memory: {
     Title: "Память",

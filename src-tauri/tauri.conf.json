@@ -51,7 +51,7 @@
         "icons/icon.ico"
       ],
       "identifier": "com.yida.chatgpt.next.web",
-      "longDescription": "ChatGPT Next Web is a cross-platform ChatGPT client, including Web/Win/Linux/OSX/PWA.",
+      "longDescription": "文心一言 Next Web is a cross-platform 文心一言 client, including Web/Win/Linux/OSX/PWA.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -60,7 +60,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "ChatGPT Next Web App",
+      "shortDescription": "文心一言 Next Web App",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -74,7 +74,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/download/{{current_version}}/latest.json"
+        "https://github.com/Yidadaa/文心一言-Next-Web/releases/download/{{current_version}}/latest.json"
       ],
       "dialog": false,
       "windows": {
@@ -87,7 +87,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "ChatGPT Next Web",
+        "title": "文心一言 Next Web",
         "width": 960,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay"

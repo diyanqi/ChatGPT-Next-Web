@@ -11,7 +11,7 @@ const es: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} mensajes`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} mensajes con ChatGPT`,
+    SubTitle: (count: number) => `${count} mensajes con 文心一言`,
     Actions: {
       ChatList: "Ir a la lista de chats",
       CompressedHistory: "Historial de memoria comprimido",
@@ -41,7 +41,7 @@ const es: PartialLocaleType = {
     Copy: "Copiar todo",
     Download: "Descargar",
     MessageFromYou: "Mensaje de ti",
-    MessageFromChatGPT: "Mensaje de ChatGPT",
+    MessageFrom文心一言: "Mensaje de 文心一言",
   },
   Memory: {
     Title: "Historial de memoria",

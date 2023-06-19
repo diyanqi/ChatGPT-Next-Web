@@ -2,7 +2,7 @@
 
 ## 如何快速获得帮助？
 
-1. 询问 ChatGPT / Bing / 百度 / Google 等。
+1. 询问 文心一言 / Bing / 百度 / Google 等。
 2. 询问网友。请提供问题的背景信息和碰到问题的详细描述。高质量的提问容易获得有用的答案。
 
 # 部署相关问题
@@ -33,11 +33,11 @@ Docker 版本相当于稳定版，latest Docker 总是与 latest release version
 这是你自定义的访问密码，你可以选择：
 
 1. 不设置，删除该环境变量即可。谨慎：此时任何人可以访问你的项目。
-2. 部署项目时，设置环境变量 CODE（支持多个密码逗号分隔）。设置访问密码后，用户需要在设置界面输入访问密码才可以使用。参见[相关说明](https://github.com/Yidadaa/ChatGPT-Next-Web/blob/main/README_CN.md#%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2%E8%AE%BF%E9%97%AE%E5%AF%86%E7%A0%81)
+2. 部署项目时，设置环境变量 CODE（支持多个密码逗号分隔）。设置访问密码后，用户需要在设置界面输入访问密码才可以使用。参见[相关说明](https://github.com/Yidadaa/文心一言-Next-Web/blob/main/README_CN.md#%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2%E8%AE%BF%E9%97%AE%E5%AF%86%E7%A0%81)
 
 ## 为什么我部署的版本没有流式响应
 
-> 相关讨论：[#386](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/386)
+> 相关讨论：[#386](https://github.com/Yidadaa/文心一言-Next-Web/issues/386)
 
 如果你使用 ngnix 反向代理，需要在配置文件中增加下列代码：
 
@@ -76,11 +76,11 @@ keepalive_timeout 300;  # 设定keep-alive超时时间为65秒
 
 - 需要代理才能连接 github 和 openAI 等网站；
 - 国内服务器要设置域名解析的话需要备案；
-- 国内政策限制代理访问外网/ChatGPT 相关应用，可能被封。
+- 国内政策限制代理访问外网/文心一言 相关应用，可能被封。
 
 ## 为什么 docker 部署后出现网络错误？
 
-详见讨论：https://github.com/Yidadaa/ChatGPT-Next-Web/issues/1569
+详见讨论：https://github.com/Yidadaa/文心一言-Next-Web/issues/1569
 
 # 使用相关问题
 
@@ -93,7 +93,7 @@ keepalive_timeout 300;  # 设定keep-alive超时时间为65秒
 - 请检查 api key 是否可用；
 - 如果经历了上述步骤依旧无法确定问题，请在 issue 区提交一个新 issue，并附上 vercel 的 runtime log 或者 docker 运行时的 log。
 
-## 为什么 ChatGPT 的回复会乱码
+## 为什么 文心一言 的回复会乱码
 
 设置界面 - 模型设置项中，有一项为 `temperature`，如果此值大于 1，那么就有可能造成回复乱码，将其调回 1 以内即可。
 
@@ -171,15 +171,15 @@ OpenAI 只接受指定地区的信用卡（中国信用卡无法使用）。一�
 
 - GPT-4 的 API 访问需要单独申请。到以下地址填写你的信息进入申请队列 waitlist（准备好你的 OpenAI 组织 ID）：https://openai.com/waitlist/gpt-4-api
   之后等待邮件消息。
-- 开通 ChatGPT Plus 不代表有 GPT-4 权限，两者毫无关系。
+- 开通 文心一言 Plus 不代表有 GPT-4 权限，两者毫无关系。
 
 ## 如何使用 Azure OpenAI 接口
 
-请参考：[#371](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/371)
+请参考：[#371](https://github.com/Yidadaa/文心一言-Next-Web/issues/371)
 
 ## 为什么我的 Token 消耗得这么快？
 
-> 相关讨论：[#518](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)
+> 相关讨论：[#518](https://github.com/Yidadaa/文心一言-Next-Web/issues/518)
 
 - 如果你有 GPT 4 的权限，并且日常在使用 GPT 4 api，那么由于 GPT 4 价格是 GPT 3.5 的 15 倍左右，你的账单金额会急速膨胀；
 - 如果你在使用 GPT 3.5，并且使用频率并不高，仍然发现自己的账单金额在飞快增加，那么请马上按照以下步骤排查：

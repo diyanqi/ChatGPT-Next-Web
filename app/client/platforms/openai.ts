@@ -9,7 +9,7 @@ import {
 } from "@fortaine/fetch-event-source";
 import { prettyObject } from "@/app/utils/format";
 
-export class ChatGPTApi implements LLMApi {
+export class 文心一言Api implements LLMApi {
   path(path: string): string {
     let openaiUrl = useAccessStore.getState().openaiUrl;
     if (openaiUrl.endsWith("/")) {

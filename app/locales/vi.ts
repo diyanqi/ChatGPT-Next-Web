@@ -11,7 +11,7 @@ const vi: PartialLocaleType = {
     ChatItemCount: (count: number) => `${count} tin nhắn`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} tin nhắn với ChatGPT`,
+    SubTitle: (count: number) => `${count} tin nhắn với 文心一言`,
     Actions: {
       ChatList: "Xem danh sách chat",
       CompressedHistory: "Nén tin nhắn trong quá khứ",
@@ -41,7 +41,7 @@ const vi: PartialLocaleType = {
     Copy: "Sao chép tất cả",
     Download: "Tải xuống",
     MessageFromYou: "Tin nhắn của bạn",
-    MessageFromChatGPT: "Tin nhắn từ ChatGPT",
+    MessageFrom文心一言: "Tin nhắn từ 文心一言",
   },
   Memory: {
     Title: "Lịch sử tin nhắn",

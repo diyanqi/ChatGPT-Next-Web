@@ -437,9 +437,9 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>ChatGPT Next Web</div>
+            <div className={styles["main-title"]}>文心一言 Next Web</div>
             <div className={styles["sub-title"]}>
-              github.com/Yidadaa/ChatGPT-Next-Web
+              github.com/Yidadaa/文心一言-Next-Web
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
@@ -502,7 +502,7 @@ export function MarkdownPreviewer(props: {
       .map((m) => {
         return m.role === "user"
           ? `## ${Locale.Export.MessageFromYou}:\n${m.content}`
-          : `## ${Locale.Export.MessageFromChatGPT}:\n${m.content.trim()}`;
+          : `## ${Locale.Export.MessageFrom文心一言}:\n${m.content.trim()}`;
       })
       .join("\n\n");
 
